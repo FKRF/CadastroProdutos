@@ -15,27 +15,29 @@ namespace CadastroProdutos.Dao
         {
             _conexao = new Conexao();
         }
-        public List<Produtos> Consultar()
+        public List<Produtos> Consultar(int offset, int limit)
         {
             List<Produtos> produtos = new List<Produtos>();
 
             MySqlConnection conexao = _conexao.AbrirConexao();
             try
             {
-                string query = @"SELECT codigo, nome, preco, foto, custo FROM produtos LIMIT 10";
+                string query = @"SELECT codigo, nome, preco, foto, custo FROM produtos LIMIT @limit OFFSET @offset";
                 MySqlCommand comando = new MySqlCommand(query, conexao);
+
+                comando.Parameters.AddWithValue("@limit", limit);
+                comando.Parameters.AddWithValue("@offset", offset);
+
                 MySqlDataReader reader = comando.ExecuteReader();
                 while (reader.Read())
                 {
                     Produtos produto = new Produtos();
-                    {
-                        produto.Codigo = reader.GetInt32(0);
-                        produto.Nome = reader.GetString(1);
-                        produto.Preco = reader.GetDecimal(2);
-                        produto.Foto = reader.GetString(3);
-                        produto.Custo = reader.GetDecimal(4);
+                    produto.Codigo = reader.GetInt32(0);
+                    produto.Nome = reader.GetString(1);
+                    produto.Preco = reader.GetDecimal(2);
+                    produto.Foto = reader.GetString(3);
+                    produto.Custo = reader.GetDecimal(4);
 
-                    };
                     produtos.Add(produto);
                 }
                 reader.Close();
@@ -48,10 +50,10 @@ namespace CadastroProdutos.Dao
             {
                 _conexao.FecharConexao(conexao);
             }
-            
 
             return produtos;
         }
+
         public void IncluirProduto(string nome, decimal preco, string foto, decimal custo)
         {
             
