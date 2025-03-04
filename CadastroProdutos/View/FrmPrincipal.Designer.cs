@@ -35,6 +35,8 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.lviewProdutos = new System.Windows.Forms.ListView();
             this.btnMostrarTodos = new System.Windows.Forms.Button();
+            this.lblConsulta = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // txtBoxPesquisa
@@ -103,10 +105,28 @@
             this.btnMostrarTodos.UseVisualStyleBackColor = true;
             this.btnMostrarTodos.Click += new System.EventHandler(this.btnMostrarTodos_Click);
             // 
+            // lblConsulta
+            // 
+            this.lblConsulta.AutoSize = true;
+            this.lblConsulta.Location = new System.Drawing.Point(52, 265);
+            this.lblConsulta.Name = "lblConsulta";
+            this.lblConsulta.Size = new System.Drawing.Size(0, 13);
+            this.lblConsulta.TabIndex = 7;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(310, 170);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressBar1.TabIndex = 8;
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.lblConsulta);
             this.Controls.Add(this.btnMostrarTodos);
             this.Controls.Add(this.lviewProdutos);
             this.Controls.Add(this.btnExcluir);
@@ -116,6 +136,7 @@
             this.Controls.Add(this.txtBoxPesquisa);
             this.Name = "FrmPrincipal";
             this.Text = "Tela inicial";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.Controls.SetChildIndex(this.txtBoxPesquisa, 0);
             this.Controls.SetChildIndex(this.btnPesquisar, 0);
             this.Controls.SetChildIndex(this.btnIncluir, 0);
@@ -123,6 +144,8 @@
             this.Controls.SetChildIndex(this.btnExcluir, 0);
             this.Controls.SetChildIndex(this.lviewProdutos, 0);
             this.Controls.SetChildIndex(this.btnMostrarTodos, 0);
+            this.Controls.SetChildIndex(this.lblConsulta, 0);
+            this.Controls.SetChildIndex(this.progressBar1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,5 +160,7 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.ListView lviewProdutos;
         private System.Windows.Forms.Button btnMostrarTodos;
+        private System.Windows.Forms.Label lblConsulta;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
