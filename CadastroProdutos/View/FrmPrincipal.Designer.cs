@@ -136,7 +136,6 @@
             this.Controls.Add(this.txtBoxPesquisa);
             this.Name = "FrmPrincipal";
             this.Text = "Tela inicial";
-            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.Controls.SetChildIndex(this.txtBoxPesquisa, 0);
             this.Controls.SetChildIndex(this.btnPesquisar, 0);
             this.Controls.SetChildIndex(this.btnIncluir, 0);

@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\",
+  "WorkspaceRootPath": "C:\\Users\\fkrf\\Desktop\\CadastroProdutos-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\fkrf\\source\\repos\\cadastroprodutos\\cadastroprodutos\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\fkrf\\desktop\\cadastroprodutos-main\\cadastroprodutos\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\fkrf\\source\\repos\\cadastroprodutos\\cadastroprodutos\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\fkrf\\source\\repos\\cadastroprodutos\\cadastroprodutos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3F944F75-534D-4CFD-87A5-A63567CEFB16}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProdutoDao.cs",
-              "DocumentMoniker": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\Dao\\ProdutoDao.cs",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Dao\\ProdutoDao.cs",
-              "ToolTip": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\Dao\\ProdutoDao.cs",
-              "RelativeToolTip": "CadastroProdutos\\Dao\\ProdutoDao.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAqwFYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:06:38.022Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\View\\FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\fkrf\\Desktop\\CadastroProdutos-main\\CadastroProdutos\\View\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\View\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\View\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\fkrf\\Desktop\\CadastroProdutos-main\\CadastroProdutos\\View\\FrmPrincipal.cs",
               "RelativeToolTip": "CadastroProdutos\\View\\FrmPrincipal.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T01:59:20.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\appsettings.json",
-              "RelativeDocumentMoniker": "CadastroProdutos\\appsettings.json",
-              "ToolTip": "C:\\Users\\fkrf\\source\\repos\\CadastroProdutos\\CadastroProdutos\\appsettings.json",
-              "RelativeToolTip": "CadastroProdutos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T00:51:10.815Z",
+              "WhenOpened": "2025-03-07T00:01:52.1Z",
               "EditorCaption": ""
             }
           ]
